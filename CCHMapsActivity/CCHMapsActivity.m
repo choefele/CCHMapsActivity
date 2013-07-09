@@ -8,9 +8,11 @@
 
 #import "CCHMapsActivity.h"
 
+#import <MapKit/MapKit.h>
+
 @interface CCHMapsActivity()
 
-@property (nonatomic, strong) NSURL *url;
+@property (nonatomic, strong) MKMapItem *mapItem;
 
 @end
 
@@ -18,44 +20,45 @@
 
 - (NSString *)activityType
 {
-	return NSStringFromClass(self.class);
+    return NSStringFromClass(self.class);
 }
 
 - (NSString *)activityTitle
 {
-	return NSLocalizedStringFromTable(@"In der Karten App öffnen", @"TUSafariActivity", nil);
+    return NSLocalizedStringFromTable(@"activity.openMaps", @"CCHMapsActivity", nil);
 }
 
 - (UIImage *)activityImage
 {
-	return [UIImage imageNamed:@"Maps.png"];
+    return [UIImage imageNamed:@"CCHMapsActivity.png"];
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems
 {
-	for (id activityItem in activityItems) {
-		if ([activityItem isKindOfClass:[NSURL class]] && [[UIApplication sharedApplication] canOpenURL:activityItem]) {
-			return YES;
-		}
-	}
-    
-	return NO;
+    BOOL result;
+    for (id activityItem in activityItems) {
+        if ([activityItem isKindOfClass:MKMapItem.class]) {
+            result = YES;
+            break;
+        }
+    }
+
+    return result;
 }
 
 - (void)prepareWithActivityItems:(NSArray *)activityItems
 {
-	for (id activityItem in activityItems) {
-		if ([activityItem isKindOfClass:[NSURL class]]) {
-			self.url = activityItem;
-		}
-	}
+    for (id activityItem in activityItems) {
+        if ([activityItem isKindOfClass:MKMapItem.class]) {
+            self.mapItem = activityItem;
+        }
+    }
 }
 
 - (void)performActivity
 {
-	BOOL completed = [[UIApplication sharedApplication] openURL:self.url];
-    
-	[self activityDidFinish:completed];
+    BOOL result = [self.mapItem openInMapsWithLaunchOptions:self.launchOptions];
+    [self activityDidFinish:result];
 }
 
 @end

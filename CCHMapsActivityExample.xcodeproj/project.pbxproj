@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4877721D178C7B0200789F32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4877721C178C7B0200789F32 /* UIKit.framework */; };
+		4877721F178C7B0200789F32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4877721E178C7B0200789F32 /* Foundation.framework */; };
+		48777221178C7B0200789F32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48777220178C7B0200789F32 /* CoreGraphics.framework */; };
+		48777227178C7B0200789F32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48777225178C7B0200789F32 /* InfoPlist.strings */; };
+		48777229178C7B0200789F32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48777228178C7B0200789F32 /* main.m */; };
+		4877722D178C7B0200789F32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4877722C178C7B0200789F32 /* AppDelegate.m */; };
+		4877722F178C7B0200789F32 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4877722E178C7B0200789F32 /* Default.png */; };
+		48777231178C7B0200789F32 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48777230178C7B0200789F32 /* Default@2x.png */; };
+		48777233178C7B0200789F32 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48777232178C7B0200789F32 /* Default-568h@2x.png */; };
+		48777236178C7B0200789F32 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48777234178C7B0200789F32 /* MainStoryboard.storyboard */; };
+		48777239178C7B0200789F32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48777238178C7B0200789F32 /* ViewController.m */; };
+		48777246178C7B5E00789F32 /* CCHMapsActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 48777241178C7B5E00789F32 /* CCHMapsActivity.m */; };
+		4877724C178C89C600789F32 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4877724B178C89C600789F32 /* MapKit.framework */; };
+		48777253178C8DA700789F32 /* CCHMapsActivity.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48777255178C8DA700789F32 /* CCHMapsActivity.strings */; };
+		4877725E178C927300789F32 /* CCHMapsActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 4877725A178C927200789F32 /* CCHMapsActivity.png */; };
+		4877725F178C927300789F32 /* CCHMapsActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4877725B178C927200789F32 /* CCHMapsActivity@2x.png */; };
+		48777260178C927300789F32 /* CCHMapsActivity˜ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4877725C178C927200789F32 /* CCHMapsActivity˜ipad.png */; };
+		48777261178C927300789F32 /* CCHMapsActivity@2x˜ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4877725D178C927200789F32 /* CCHMapsActivity@2x˜ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48777219178C7B0200789F32 /* CCHMapsActivityExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCHMapsActivityExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4877721C178C7B0200789F32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4877721E178C7B0200789F32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48777220178C7B0200789F32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48777224178C7B0200789F32 /* CCHMapsActivityExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CCHMapsActivityExample-Info.plist"; sourceTree = "<group>"; };
+		48777226178C7B0200789F32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48777228178C7B0200789F32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4877722A178C7B0200789F32 /* CCHMapsActivityExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCHMapsActivityExample-Prefix.pch"; sourceTree = "<group>"; };
+		4877722B178C7B0200789F32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4877722C178C7B0200789F32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4877722E178C7B0200789F32 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		48777230178C7B0200789F32 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		48777232178C7B0200789F32 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		48777235178C7B0200789F32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		48777237178C7B0200789F32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48777238178C7B0200789F32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48777240178C7B5E00789F32 /* CCHMapsActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHMapsActivity.h; sourceTree = "<group>"; };
+		48777241178C7B5E00789F32 /* CCHMapsActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHMapsActivity.m; sourceTree = "<group>"; };
+		4877724B178C89C600789F32 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		48777254178C8DA700789F32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/CCHMapsActivity.strings; sourceTree = "<group>"; };
+		48777256178C8E1900789F32 /* de */ = {isa = PBXFileReference; lastKnownFileType = file; name = de; path = de.lproj/CCHMapsActivity.strings; sourceTree = "<group>"; };
+		48777257178C8E2400789F32 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file; name = fr; path = fr.lproj/CCHMapsActivity.strings; sourceTree = "<group>"; };
+		48777258178C8E3100789F32 /* es */ = {isa = PBXFileReference; lastKnownFileType = file; name = es; path = es.lproj/CCHMapsActivity.strings; sourceTree = "<group>"; };
+		48777259178C8E4000789F32 /* it */ = {isa = PBXFileReference; lastKnownFileType = file; name = it; path = it.lproj/CCHMapsActivity.strings; sourceTree = "<group>"; };
+		4877725A178C927200789F32 /* CCHMapsActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CCHMapsActivity.png; sourceTree = "<group>"; };
+		4877725B178C927200789F32 /* CCHMapsActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCHMapsActivity@2x.png"; sourceTree = "<group>"; };
+		4877725C178C927200789F32 /* CCHMapsActivity˜ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCHMapsActivity˜ipad.png"; sourceTree = "<group>"; };
+		4877725D178C927200789F32 /* CCHMapsActivity@2x˜ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CCHMapsActivity@2x˜ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48777216178C7B0200789F32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4877724C178C89C600789F32 /* MapKit.framework in Frameworks */,
+				4877721D178C7B0200789F32 /* UIKit.framework in Frameworks */,
+				4877721F178C7B0200789F32 /* Foundation.framework in Frameworks */,
+				48777221178C7B0200789F32 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48777210178C7B0200789F32 = {
+			isa = PBXGroup;
+			children = (
+				4877723F178C7B5E00789F32 /* CCHMapsActivity */,
+				48777222178C7B0200789F32 /* CCHMapsActivityExample */,
+				4877721B178C7B0200789F32 /* Frameworks */,
+				4877721A178C7B0200789F32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4877721A178C7B0200789F32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48777219178C7B0200789F32 /* CCHMapsActivityExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4877721B178C7B0200789F32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4877724B178C89C600789F32 /* MapKit.framework */,
+				4877721C178C7B0200789F32 /* UIKit.framework */,
+				4877721E178C7B0200789F32 /* Foundation.framework */,
+				48777220178C7B0200789F32 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48777222178C7B0200789F32 /* CCHMapsActivityExample */ = {
+			isa = PBXGroup;
+			children = (
+				4877722B178C7B0200789F32 /* AppDelegate.h */,
+				4877722C178C7B0200789F32 /* AppDelegate.m */,
+				48777234178C7B0200789F32 /* MainStoryboard.storyboard */,
+				48777237178C7B0200789F32 /* ViewController.h */,
+				48777238178C7B0200789F32 /* ViewController.m */,
+				48777223178C7B0200789F32 /* Supporting Files */,
+			);
+			path = CCHMapsActivityExample;
+			sourceTree = "<group>";
+		};
+		48777223178C7B0200789F32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48777224178C7B0200789F32 /* CCHMapsActivityExample-Info.plist */,
+				48777225178C7B0200789F32 /* InfoPlist.strings */,
+				48777228178C7B0200789F32 /* main.m */,
+				4877722A178C7B0200789F32 /* CCHMapsActivityExample-Prefix.pch */,
+				4877722E178C7B0200789F32 /* Default.png */,
+				48777230178C7B0200789F32 /* Default@2x.png */,
+				48777232178C7B0200789F32 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4877723F178C7B5E00789F32 /* CCHMapsActivity */ = {
+			isa = PBXGroup;
+			children = (
+				48777240178C7B5E00789F32 /* CCHMapsActivity.h */,
+				48777241178C7B5E00789F32 /* CCHMapsActivity.m */,
+				4877725A178C927200789F32 /* CCHMapsActivity.png */,
+				4877725B178C927200789F32 /* CCHMapsActivity@2x.png */,
+				4877725C178C927200789F32 /* CCHMapsActivity˜ipad.png */,
+				4877725D178C927200789F32 /* CCHMapsActivity@2x˜ipad.png */,
+				48777255178C8DA700789F32 /* CCHMapsActivity.strings */,
+			);
+			path = CCHMapsActivity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48777218178C7B0200789F32 /* CCHMapsActivityExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4877723C178C7B0200789F32 /* Build configuration list for PBXNativeTarget "CCHMapsActivityExample" */;
+			buildPhases = (
+				48777215178C7B0200789F32 /* Sources */,
+				48777216178C7B0200789F32 /* Frameworks */,
+				48777217178C7B0200789F32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCHMapsActivityExample;
+			productName = CCHMapsActivityExample;
+			productReference = 48777219178C7B0200789F32 /* CCHMapsActivityExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48777211178C7B0200789F32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Claus Höfele";
+			};
+			buildConfigurationList = 48777214178C7B0200789F32 /* Build configuration list for PBXProject "CCHMapsActivityExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				fr,
+				es,
+				it,
+			);
+			mainGroup = 48777210178C7B0200789F32;
+			productRefGroup = 4877721A178C7B0200789F32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48777218178C7B0200789F32 /* CCHMapsActivityExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48777217178C7B0200789F32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48777227178C7B0200789F32 /* InfoPlist.strings in Resources */,
+				4877722F178C7B0200789F32 /* Default.png in Resources */,
+				48777231178C7B0200789F32 /* Default@2x.png in Resources */,
+				48777233178C7B0200789F32 /* Default-568h@2x.png in Resources */,
+				48777236178C7B0200789F32 /* MainStoryboard.storyboard in Resources */,
+				48777253178C8DA700789F32 /* CCHMapsActivity.strings in Resources */,
+				4877725E178C927300789F32 /* CCHMapsActivity.png in Resources */,
+				4877725F178C927300789F32 /* CCHMapsActivity@2x.png in Resources */,
+				48777260178C927300789F32 /* CCHMapsActivity˜ipad.png in Resources */,
+				48777261178C927300789F32 /* CCHMapsActivity@2x˜ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48777215178C7B0200789F32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48777229178C7B0200789F32 /* main.m in Sources */,
+				4877722D178C7B0200789F32 /* AppDelegate.m in Sources */,
+				48777239178C7B0200789F32 /* ViewController.m in Sources */,
+				48777246178C7B5E00789F32 /* CCHMapsActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48777225178C7B0200789F32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48777226178C7B0200789F32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		48777234178C7B0200789F32 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48777235178C7B0200789F32 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		48777255178C8DA700789F32 /* CCHMapsActivity.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48777254178C8DA700789F32 /* en */,
+				48777256178C8E1900789F32 /* de */,
+				48777257178C8E2400789F32 /* fr */,
+				48777258178C8E3100789F32 /* es */,
+				48777259178C8E4000789F32 /* it */,
+			);
+			name = CCHMapsActivity.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4877723A178C7B0200789F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4877723B178C7B0200789F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4877723D178C7B0200789F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCHMapsActivityExample/CCHMapsActivityExample-Prefix.pch";
+				INFOPLIST_FILE = "CCHMapsActivityExample/CCHMapsActivityExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4877723E178C7B0200789F32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCHMapsActivityExample/CCHMapsActivityExample-Prefix.pch";
+				INFOPLIST_FILE = "CCHMapsActivityExample/CCHMapsActivityExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48777214178C7B0200789F32 /* Build configuration list for PBXProject "CCHMapsActivityExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4877723A178C7B0200789F32 /* Debug */,
+				4877723B178C7B0200789F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4877723C178C7B0200789F32 /* Build configuration list for PBXNativeTarget "CCHMapsActivityExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4877723D178C7B0200789F32 /* Debug */,
+				4877723E178C7B0200789F32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48777211178C7B0200789F32 /* Project object */;
+}

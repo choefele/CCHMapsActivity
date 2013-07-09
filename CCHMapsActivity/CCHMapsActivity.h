@@ -10,4 +10,6 @@
 
 @interface CCHMapsActivity : UIActivity
 
+@property (nonatomic, strong) NSDictionary *launchOptions;
+
 @end
