@@ -1,11 +1,8 @@
 //
 //  CCHMapsActivity.h
-//  Stolpersteine
+//  CCHMapsActivity
 //
-//  Created by Claus on 06.07.13.
-//  Copyright (c) 2013 Claus Höfele
-//
-//  https://github.com/choefele/CCHMapsActivity
+//  Copyright (C) 2013 Claus Höfele
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
