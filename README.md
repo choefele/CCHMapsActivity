@@ -1,7 +1,7 @@
 CCHMapsActivity
 ===============
 
-UIActivity subclass that provides an Open in Maps action.
+Usage see example. Pull requests for better icons welcome ;-)
 
 ## License (MIT)
 
